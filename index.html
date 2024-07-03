@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>My Personal Website</h1>
+            <p data-testid="currentTimeUTC">Current Time (UTC): <span id="utc-time"></span></p>
+            <p data-testid="currentDay">Current Day: <span id="current-day"></span></p>
+            <hr>
+        </header>
+        <main>
+            <section>
+                <h2>Slack Details</h2>
+                <p data-testid="slackDisplayName">Slack Display Name: Cyril</p>
+                <img src="https://ca.slack-edge.com/T07466B189M-U079XMA3BEJ-62926e2d4b89-512" 
+                alt="Slack Profile Picture" 
+                data-testid="slackProfilePicture"
+                width="150" height="150"
+                />
+                <figcaption><em>Slack Profile Picture</em></figcaption>
+                <p data-testid="slackEmail">Slack Email: <a href="mailto:n.o.lamptey12@gmail.com">n.o.lamptey12@gmail.com</a></p>
+            </section>
+            <section>
+                <h2>My Goals For The Next Two Years in Tech</h2>
+                <ul>
+                    <li>Be very fluent with HTML, CSS, and JavaScript</li>
+                    <li>Master a frontend framework, preferably React</li>
+                    <li>Master a backend framework, preferably NodeJS</li>
+                    <li>Have a few projects deployed, e.g., websites, web apps, etc.</li>
+                    <li>Have my portfolio site</li>
+                    <li>Secure an entry role job in full-stack web development</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Learn More About HNG & Other Links</h2>
+                <ul>
+                    <li><a href="https://hng.tech/learn" data-testid="hngLink">HNG Tech Learn</a></li>
+                    <li><a href="https://keyword.dog" data-testid="keywordLink">Keyword Dog</a></li>
+                    <li><a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink">Scrape Any Web</a></li>
+                </ul>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
